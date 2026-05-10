@@ -31,7 +31,6 @@ talks to you, and you run CLI commands only when useful.
 3. Before writing paid content or drafts, create `.noidea/.gitignore` with `assets/` and `drafts/`, then verify the target is ignored when inside a git repo.
 4. Show preview, link, price, wallet impact, and confirmation before purchase.
 5. Use `--expected-price-cents` when buying. Never buy multiple assets automatically.
-6. Publish flow is draft, human review, re-sync from local file, publish.
+6. Publish flow is draft, human review, re-sync from local file, submit for review.
 7. Use TOON output by default. Use `--json` only when strict parsing is required.
 8. Do not use Nora runtime control-plane commands for this skill; use marketplace metadata and your judgment.
-

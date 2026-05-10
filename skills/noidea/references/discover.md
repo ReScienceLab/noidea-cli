@@ -37,4 +37,3 @@ noidea assets search "<handle or name>" --mode seller --limit 10
 ## Present
 
 Show the top three results with title, seller handle when present, price, match reason when present, and one sentence on relevance. If authenticated, include spendable balance and cost impact. Offer individual next actions only: view, buy one asset, or search again.
-

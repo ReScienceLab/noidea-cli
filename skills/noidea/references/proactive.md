@@ -19,4 +19,3 @@ noidea assets search "<inferred topic>" --mode semantic --limit 5
 ```
 
 Surface one non-blocking line if there is a useful match. Do not interrupt active work, do not repeat ignored suggestions, and do not search every turn.
-
