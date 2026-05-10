@@ -23,4 +23,3 @@ noidea status
 ```
 
 If `isSeller` is false, direct the user to `<web_url>/become-seller`.
-

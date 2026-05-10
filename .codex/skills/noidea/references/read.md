@@ -37,4 +37,3 @@ noidea assets read <id>
 Persist `fullContent` to `.noidea/assets/<id>.md` only after the ignore check passes. Store metadata beside it with asset ID, purchase ID, purchase type, purchased time, owner flag, asset version, and validation time.
 
 Then summarize or quote from the content according to the user's request.
-

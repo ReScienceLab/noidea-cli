@@ -58,7 +58,7 @@ Scan `.noidea/drafts/*.md` for `noidea_draft_id`.
 
 - `pending_review`: ask whether to resume that draft. On "publish", re-sync first.
 - `synced`: on explicit confirmation, re-sync again before publishing.
-- `published`: keep for reference; do not publish again.
+- `submitted`: keep for reference; do not submit again unless the seller asks after rejection.
 
 ## Re-sync And Publish
 
@@ -69,5 +69,4 @@ noidea assets draft save --id <draft_id> --body @.noidea/drafts/<slug>.md --titl
 noidea assets draft publish <draft_id>
 ```
 
-After publish, update frontmatter `sync_status: published` and show the asset URL.
-
+After publish, update frontmatter `sync_status: submitted` and show the asset URL. The asset is submitted for backend review; do not tell the seller it is live until NoIdea marks it `published`.

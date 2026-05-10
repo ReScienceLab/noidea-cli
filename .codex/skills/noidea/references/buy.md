@@ -44,4 +44,3 @@ noidea buy <id> --expected-price-cents <previewedPriceCents>
 If purchase succeeds, deliver `content` inline when present. If the CLI reports a price mismatch, show the new live price and ask for confirmation again.
 
 Never run bulk buy automation.
-
